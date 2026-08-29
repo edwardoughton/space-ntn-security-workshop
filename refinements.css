@@ -1,0 +1,60 @@
+.hero h1 {
+  font-size: clamp(42px, 5vw, 72px);
+  line-height: 1.03;
+  letter-spacing: -.05em;
+}
+
+.event-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin: -12px 0 30px;
+  color: #d8e1e6;
+  font: 500 11px "DM Mono", monospace;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+@media (min-width: 901px) {
+  .hero .intro {
+    max-width: 760px;
+    font-size: 16px;
+    white-space: nowrap;
+  }
+}
+
+.event-line i {
+  color: var(--cyan);
+  font-style: normal;
+}
+
+.section .themes-label {
+  margin: 0 0 24px;
+  font: 500 12px "DM Mono", monospace;
+  line-height: 1.4;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.about h2 {
+  font-size: clamp(34px, 4vw, 52px);
+}
+
+@media (max-width: 560px) {
+  .hero h1 {
+    font-size: 39px;
+  }
+
+  .site-header .brand {
+    max-width: 245px;
+    font-size: 10px;
+  }
+
+  .event-line {
+    gap: 7px;
+    margin-top: -10px;
+    font-size: 10px;
+    line-height: 1.6;
+  }
+}

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="NSF Workshop on Security Challenges and Research Directions for Space and Non-Terrestrial Networks, January 14–15, 2027 at George Mason University.">
+  <title>Space & NTN Security Workshop · 2027</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="refinements.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Space and NTN Security home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>NSF SPACE &amp; NTN SECURITY WORKSHOP</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#themes">Themes</a>
+      <a href="#about">About</a>
+      <a class="nav-cta" href="#interest">Express interest</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="assets/ntn-hero.png" alt="A network of satellites linked above Earth at night">
+      <div class="hero-shade"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span>NSF WORKSHOP</span><span>ARLINGTON, VA</span></p>
+        <h1 id="hero-title">Securing Space &amp;<br><em>Non-Terrestrial Networks</em></h1>
+        <p class="intro">A workshop to define National Science Foundation strategic research priorities.</p>
+        <p class="event-line"><span>January 14–15, 2027</span><i aria-hidden="true">·</i><span>Fuse Conference Center</span><i aria-hidden="true">·</i><span>George Mason University</span><i aria-hidden="true">·</i><span>Arlington, VA</span></p>
+        <div class="hero-actions">
+          <a class="button primary" href="#interest">Express interest <span aria-hidden="true">↗</span></a>
+          <a class="button secondary" href="#about">Explore the workshop</a>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#themes"><span>SCROLL TO EXPLORE</span><i aria-hidden="true">↓</i></a>
+    </section>
+
+    <section class="themes section" id="themes" aria-label="Key areas of interest">
+      <h2 class="themes-label">Workshop themes</h2>
+      <div class="theme-grid">
+        <article><span>01</span><div class="theme-icon signal" aria-hidden="true"></div><h3>Cyber &amp; signal security</h3><p>Jamming, spoofing, protocol exploitation, rogue network elements, and other attacks across space, air, and ground segments.</p></article>
+        <article><span>02</span><div class="theme-icon ai" aria-hidden="true"></div><h3>AI-enabled threats</h3><p>Adaptive interference, adversarial machine learning, autonomous attacks, as well as AI-native network defense.</p></article>
+        <article><span>03</span><div class="theme-icon quantum" aria-hidden="true"></div><h3>Quantum readiness</h3><p>Post-quantum cryptography, secure key management, quantum communications, sensing, and resilient positioning, navigation, and timing.</p></article>
+        <article><span>04</span><div class="theme-icon trust" aria-hidden="true"></div><h3>Trust, resilience, and policy</h3><p>Data privacy, identity, cloud and core security, cross-domain dependencies, governance, policy, and standards.</p></article>
+      </div>
+    </section>
+
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div>
+        <p class="kicker">WHY THIS WORKSHOP</p>
+        <h2 id="about-title">From threat landscape<br>to research roadmap.</h2>
+      </div>
+      <div class="about-copy">
+        <p>Space networks now support communications, positioning, navigation, timing, and other critical services. This broad wireless attack footprint, combined with high autonomy and limited servicing, creates a range of new security challenges.</p>
+        <p>Across two days, we will hold a series of industry panels and working sessions to identify urgent research gaps. Information gathered will be used to define a new NSF research strategy for securing space and non-terrestrial networks (NTNs).</p>
+      </div>
+    </section>
+
+    <section class="interest section" id="interest" aria-labelledby="interest-title">
+      <div class="interest-copy">
+        <p class="kicker">STAY IN THE LOOP</p>
+        <h2 id="interest-title">Interested in attending?</h2>
+      </div>
+      <form id="interest-form">
+        <label>Full name<input name="name" autocomplete="name" required placeholder="Your name"></label>
+        <label>Email address<input type="email" name="email" autocomplete="email" required placeholder="you@institution.edu"></label>
+        <label>Organization<input name="organization" autocomplete="organization" required placeholder="University, company, or agency"></label>
+        <label>Primary area of interest<select name="interest" required><option value="" disabled selected>Select one</option><option>Cyber & signal security</option><option>AI-enabled threats and defense</option><option>Quantum technologies</option><option>Trust, privacy, policy & standards</option><option>Other / interdisciplinary</option></select></label>
+        <button class="button primary" type="submit">Express interest <span aria-hidden="true">↗</span></button>
+        <p class="form-note" id="form-note">Submitting opens a pre-addressed email in your default mail app.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand"><span class="brand-mark" aria-hidden="true"></span><span>NSF SPACE &amp; NTN SECURITY WORKSHOP</span></div>
+    <p>January 14–15, 2027 · Fuse Conference Center · George Mason University</p>
+    <p><a href="https://www.nsf.gov/awardsearch/show-award?AWD_ID=2629374" target="_blank" rel="noopener">Enabled by NSF award #2629374 <span aria-hidden="true">↗</span></a></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
