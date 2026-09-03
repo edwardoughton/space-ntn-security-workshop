@@ -11,7 +11,7 @@
   gap: 10px;
   margin: -12px 0 30px;
   color: #d8e1e6;
-  font: 500 11px "DM Mono", monospace;
+  font: 500 12px "DM Mono", monospace;
   letter-spacing: .08em;
   text-transform: uppercase;
 }
@@ -56,5 +56,33 @@
     margin-top: -10px;
     font-size: 10px;
     line-height: 1.6;
+  }
+}
+
+/* Keep supporting text comfortably readable on laptop and phone screens. */
+.eyebrow,
+.kicker {
+  font-size: 13px;
+}
+
+.event-card span,
+.theme-grid article > span,
+label {
+  font-size: 12px;
+}
+
+.scroll-cue {
+  font-size: 11px;
+}
+
+.form-note,
+footer {
+  font-size: 13px;
+}
+
+@media (max-width: 560px) {
+  .site-header .brand,
+  .event-line {
+    font-size: 12px;
   }
 }
